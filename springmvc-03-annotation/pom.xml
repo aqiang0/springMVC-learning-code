@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springMVC-learning-code</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>springmvc-03-annotation</artifactId>
+
+
+</project>
+<!--
+实现步骤：
+新建一个web项目
+导入相关jar包
+编写web.xml , 注册DispatcherServlet
+编写springmvc配置文件
+接下来就是去创建对应的控制类 , controller
+最后完善前端视图和controller之间的对应
+测试运行调试.
+-->
