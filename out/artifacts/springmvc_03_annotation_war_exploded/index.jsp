@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <h1>
+    默认首页页面
+  </h1>
   </body>
 </html>

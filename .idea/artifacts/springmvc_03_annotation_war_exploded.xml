@@ -2,7 +2,6 @@
   <artifact type="exploded-war" name="springmvc-03-annotation:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/springmvc_03_annotation_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="springmvc-03-annotation/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="springmvc-03-annotation" />
@@ -23,6 +22,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.2.8.RELEASE" />
         </element>
       </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/springmvc-03-annotation/web" />
     </root>
   </artifact>
 </component>
