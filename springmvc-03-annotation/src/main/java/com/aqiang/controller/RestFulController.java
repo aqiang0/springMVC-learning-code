@@ -19,8 +19,8 @@ public class RestFulController {
     public String test(@PathVariable int p1,@PathVariable int p2, Model model){
         int result = p1+p2;
         model.addAttribute("msg","RestFulController"+result);
-//        return "hello";//转发方法1
-        return "forward:/hello";//转发方法2.转发至http://localhost:8080/s3/hello
+        return "hello";//转发方法1
+//        return "forward:/hello";//转发方法2.转发至http://localhost:8080/s3/hello
     }
 
     /*
@@ -30,4 +30,14 @@ public class RestFulController {
     public String test1(){
         return "redirect:/hello";//重定向至http://localhost:8080/s3/hello
     }
+
+    /*
+    * 测试乱码问题
+    * */
+    @GetMapping("/t2/{name}")
+    public String test2(@PathVariable String name,Model model){
+        model.addAttribute("msg",name);
+        return "test";//
+    }
+
 }

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!--开启日志-->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+        <!--下划线驼峰自动转换-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--起别名-->
+    <typeAliases>
+        <package name="com.aqiang.pojo"/>
+    </typeAliases>
+
+</configuration>
